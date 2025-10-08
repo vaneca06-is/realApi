@@ -1,0 +1,37 @@
+{
+    "name": "api",
+    "version": "1.0.0",
+    "description": "API for testing",
+    "type": "module",
+    "main": "main.js",
+    "scripts": {
+        "start": "node src/main.js",
+        "dev":"nodemon src/main.js"
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^5.1.0",
+        "helmet": "^8.1.0"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.10"
+    },
+    "prettier": {
+        "trailingComma": "none",
+        "bracketSpacing": true,
+        "endOfLine": "lf",
+        "arrowParens": "avoid",
+        "htmlWhitespaceSensitivity": "css",
+        "insertPragma": false,
+        "jsxBracketSameLine": false,
+        "jsxSingleQuote": false,
+        "proseWrap": "preserve",
+        "quoteProps": "preserve",
+        "requirePragma": false,
+        "semi": false,
+        "singleQuote": true,
+        "tabWidth": 2,
+        "useTabs": false,
+        "printWidth": 150
+    }
+}
